@@ -13,7 +13,6 @@ function products() {
               container.style.display = "flex";
               container.style.width = "300px";
               container.style.flexDirection = "column";
-              container.style.backgroundColor = "#fff";
               container.style.margin = "40px auto";
               container.style.border = "8px solid #ccc";
               container.style.backgroundColor = "rgb(125, 138, 127)";
@@ -27,7 +26,7 @@ function products() {
 
               const photo = document.createElement("img");
               photo.style.width = "200px";
-              photo.style.height = "250px";
+              photo.style.height = "280px";
               photo.style.objectFit = "contain";
               divImg.appendChild(photo);
 
